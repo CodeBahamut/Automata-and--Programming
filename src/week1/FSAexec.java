@@ -7,7 +7,7 @@ public class FSAexec {
 
     public static void main(String[] args) {
         // TODO: ask for input and create better output
-        fsaExec("ababaaabac");
+        fsaExec("ababaaaba");
 
     }
 
