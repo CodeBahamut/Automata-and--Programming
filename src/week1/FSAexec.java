@@ -7,7 +7,7 @@ public class FSAexec {
 
     public static void main(String[] args) {
         // TODO: ask for input and create better output
-        fsaExec("ababaaaba");
+        fsaExec("ababaaabac");
 
     }
 
@@ -27,9 +27,16 @@ public class FSAexec {
                 {3, 3}  // state [3]
         };
         int state = 0;
+
+
         for (int i = 0; i < input.length(); i++) {
-            state = followUpAlphabetStates[state][input.charAt(i) - 'a'];
+            try{
+                state = followUpAlphabetStates[state][input.charAt(i) - 'a'];
+            } catch(Exception e){
+            }
         }
+
+
         System.out.println(acceptState[state]);
     }
 

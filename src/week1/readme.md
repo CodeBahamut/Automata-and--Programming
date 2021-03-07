@@ -21,4 +21,12 @@ Het RegEx van deze automaat die ik uit Flaci.com heb gehaalt is:
 *a)(a|b*|(b|c))*a((b|cb*a)[a-c]*a)*a(a|(b|cb*a(a|b*|(b|c))*a)((b|cb*a)[a-c]*a)*a)*(c|cb*|(b|cb*a(a|b*|(b|c))*a)((b|cb*a)
 [a-c]*a)*(c|cb*|(b|cb*a)(a|b*|(b|c))*(b|c|(b|c)b*))|cb*a((b|c)b*a)*(b|c|(b|c)b*))|b*)
 
-### Java RegEx voor controlleren van hva-emailadressen
+### Java RegEx voor controleren van hva-emailadressen
+
+In deze code heb ik een RegEx voor het controleren of het een hva emailadress is of niet.  
+Dat is gedaan door te checken dat het niet begint met '.', dat het eindigt met "@hva.nl" en dat het geen bijzondere 
+tekens bevat.
+
+### FSAexec 
+
+Gewoon de todo's die er in stonden.
