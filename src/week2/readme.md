@@ -7,9 +7,5 @@ remmen, rijden etc.
 
 ![auto.png](Auto.png)
 
- 
-
-
-### Klasse Extends klasse
 
 
