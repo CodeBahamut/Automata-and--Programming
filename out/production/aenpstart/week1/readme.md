@@ -29,4 +29,4 @@ tekens bevat.
 
 ### FSAexec 
 
-Gewoon de todo's die er in stonden.
+Todo's zijn onduidelijk.
