@@ -35,16 +35,24 @@ public class AbcMachine {
      * @param input - the string to process
      */
     public int processString(String input) {
+
+        String newInput = input.toLowerCase();
         currentState = 0;
         int[][] transitions = {
-                {0, 0, 0},
-                {0, 0, 0}
+                {0, 1, 1},
+                {0, 1, 0}
         };
 
-        for (int i = 0; i < input.length(); i++) {
-            currentState = transitions[currentState][input.charAt(i) - 'a'];
+        int i = 0;
+        try {
+            for (i = 0; i < newInput.length(); i++) {
+                currentState = transitions[currentState][newInput.charAt(i) - 'a'];
+            }
+        } catch (ArrayIndexOutOfBoundsException e) {
+            currentState = -1;
+            newInput += " Illegal character " + newInput.charAt(i) + ". Error: " + e.getMessage();
         }
-        this.input = input; // keep a copy of the input
+        this.input = newInput; // keep a copy of the input
         return currentState;
     }
 
