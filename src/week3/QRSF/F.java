@@ -9,4 +9,9 @@ class F implements State {
     public State b() {
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "F";
+    }
 }

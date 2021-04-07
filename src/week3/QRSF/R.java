@@ -9,4 +9,9 @@ class R implements State {
     public State b() {
         return new S();
     }
+
+    @Override
+    public String toString() {
+        return "R";
+    }
 }
