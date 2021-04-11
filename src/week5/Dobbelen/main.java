@@ -41,24 +41,12 @@ public class main {
         for (int i = 0; i < num.length; i++) {
 
             switch (num[i]) {
-                case 1:
-                    getal1++;
-                    break;
-                case 2:
-                    getal2++;
-                    break;
-                case 3:
-                    getal3++;
-                    break;
-                case 4:
-                    getal4++;
-                    break;
-                case 5:
-                    getal5++;
-                    break;
-                case 6:
-                    getal6++;
-                    break;
+                case 1 -> getal1++;
+                case 2 -> getal2++;
+                case 3 -> getal3++;
+                case 4 -> getal4++;
+                case 5 -> getal5++;
+                case 6 -> getal6++;
             }
         }
         System.out.println("Getal 1: " + getal1);

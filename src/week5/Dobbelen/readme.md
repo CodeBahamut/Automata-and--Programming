@@ -1,5 +1,9 @@
 ### Dobbelsteen
-Zoals er te zien is heb ik dus de dubbelsteen 100 keer laten draaien door een forloop.
+Eerst is de dobbelsteen gemaakt als een singelton klasse en met een getInstance methode en
+een gooi methode voor het maken van een random getal van 1 tot 6.
+
+In de main/ test is er te zien is heb ik dus de dubbelsteen 100 keer
+laten draaien door een forloop.
 Dat opgeslagen in een file door printwriter en weer gelezen door een scanner. Dan een 
 methode gemaakt voor het lezen van de resultaaten en optellen hoeveel keren een getal 
 voorkomt.

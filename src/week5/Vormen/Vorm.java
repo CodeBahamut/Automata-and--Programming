@@ -1,4 +1,10 @@
 package week5.Vormen;
 
-public class Vorm {
+public abstract class Vorm {
+
+    protected Vorm() {
+    }
+
+    public abstract void berekenOppervlakte();
+
 }
