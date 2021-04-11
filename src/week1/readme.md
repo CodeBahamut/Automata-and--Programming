@@ -29,4 +29,10 @@ tekens bevat.
 
 ### FSAexec 
 
-Todo's zijn onduidelijk.
+Ik heb het documtatie veranderd tot zover ik kan/begrijp en uitgelegd wat de code doet met 
+welke parameters en wat het returned. Ik heb de input veranderd dat het door de scanner 
+binnenkomt door gebruiker input. 
+
+Ik heb ook de printstatement veranderd dat het duidelijkjer is wat er false of true is. 
+Ik heb ook een extra printstatement voor printen van de currentendstate voor makkelijker 
+maken van het oplossen.
